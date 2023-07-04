@@ -1,0 +1,272 @@
+.body-container {
+    display: flex;
+    
+  }
+  
+  .column {
+    flex: 1;
+    margin-left: 250px;
+  }
+  
+   .column:last-child {
+    margin-right: 0;
+  }
+ 
+  .column1 {
+    flex: 1;
+    margin-left: 170px;
+    /* background-color: bisque; */
+
+  }
+  
+   .column1:last-child {
+    margin-right: 0;
+  }
+ 
+  .column2 {
+    flex: 1;
+    margin-left: 50px;
+    /* background-color: bisque; */
+    
+  }
+  
+   .column2:last-child {
+    margin-right: 0;
+  }
+ 
+  /* Adjust the styles of the columns as needed */
+  .row{padding: 10px;}
+  
+  .custom-img {
+    width: 340px;
+    height: auto; /* The height will adjust automatically based on the image's aspect ratio */
+    max-width: 100%; /* Ensures the image doesn't exceed its original width */
+  }
+  .image-container {
+    position: relative;
+  }
+  
+  .image-text {
+    position: absolute;
+    bottom: 10;
+    left: 0;
+    
+    background-color: white;
+    color: black;
+    padding: 8px;
+    text-align: left;
+    font-size: small;
+    
+  }
+  /* .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    width: 70px;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-title {
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  
+  .card-img-top {
+    border-radius: 5px 5px 0 0;
+  } */
+
+  .h1 {
+    font-size: 80px;
+    margin-top: 60vh;
+  }
+  
+  .p1 {
+    font-size: 18px;
+  }
+  
+  .data-container {
+    display: flex;
+    align-items: center;
+    margin-top: 10vh;
+    margin-left: 60px;
+  }
+  
+  .text-container {
+    flex: 1;
+  }
+  
+  .h1,
+  .other-div h3 {
+    margin: 0;
+  }
+  
+  .other-div {
+    padding: -80px;
+    border-radius: 10px;
+    margin-right: 80px;
+    /* margin-top: 50px; */
+    /* box-shadow: #f0f0f0; */
+  }
+  .other-div1 {
+
+    margin-right: 80px;
+   
+  }
+
+  .header-container {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  /* .header-container.active {
+    background-color: #f0f0f0;
+  }
+   */
+  /* .header-container:hover {
+    background-color: #f9f9f9;
+  }
+   */
+  .header-container img {
+    width: 30px;
+    height: auto;
+    margin-right: 5px;
+  }
+  
+  .header-container h3 {
+    margin: 0;
+  }
+  
+  .buttons-container {
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 0px;
+  }
+  
+  .rounded-button {
+    border: none;
+    border-radius: 30px;
+    padding: 10px 10px;
+    margin: 0 20px;
+    background-color: #483efb;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    width: 200px;
+  }
+  
+  .rounded-button1 {
+    border-radius: 500px;
+    padding: 10px 10px;
+    margin: 0 20px;
+    background-color: #f9f9fa;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    width: 200px;
+    border-color: rgb(27, 59, 178);
+    color: #180fc3;
+  }
+  
+  .rounded-button:hover {
+    background-color: #2304d6;
+  }
+  
+  .rounded-button1:hover {
+    background: fixed;
+  }
+  
+  .p2 {
+    cursor: pointer;
+    color: rgb(68, 68, 245);
+  }
+  
+  .p2:hover {
+    text-decoration: underline;
+  }
+  
+  .p2 i {
+    margin-left: 5px;
+  }
+  
+  .text-1,
+  .text-2 {
+    padding: 80px;
+    border-radius: 20px;
+    margin-right: 180px;
+  }
+  
+  .text-2 {
+    padding: 1px;
+  }
+  
+  .learn-more-container {
+    margin-top: 1px;
+  }
+
+  .logout-desktop-btn {
+    font-family: 'Roboto';
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 10px;
+    padding: 8px 16px;
+    color: white;
+    background-color: #0967d2;
+    border: none;
+    border-radius:14px;
+    margin-left: 14px;
+}
+
+.logout-desktop-btn:hover {
+    background: #3a69ea;
+    outline-color: transparent;
+    outline-style: solid;
+    box-shadow: 0 0 0 1px #000000;
+    
+}
+
+.logout-desktop-btn1:hover {
+    background: white;
+    outline-color: transparent;
+    outline-style: solid;
+    box-shadow: 0 0 0 1px #000000;
+    
+}
+.logout-desktop-btn1 {
+    font-family: 'Roboto';
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 10px;
+    padding: 8px 16px;
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius:14px;
+    margin-left: 14px;
+    background: 0 0 0 1px blue
+}
+#btn{background-color: #008B8B;border-radius: 20px;color: white;}
+#btn1{background-color: #008B8B;border-radius: 20px;color: white;}
+
+
+#d {
+  /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
+    filter: gray; /* IE5+ */
+    -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
+    -webkit-transition: all .8s ease-in-out;  
+   
+  }
+
+  #d:hover {
+  filter: none;
+    -webkit-filter: grayscale(0);
+    -webkit-transform: scale(1.01);
+    border-left: none;
+    border-right:none;
+    border-bottom: none;
+  }

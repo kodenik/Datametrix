@@ -1,0 +1,46 @@
+.platformt__in {
+    /* background-color: white;  */
+    align-items: center;
+    display: flexbox;
+    cursor: pointer;
+    padding: 0px 7px; 
+    /* color: black; */
+    font-size: 15px;
+    
+
+}
+/* .platformt {
+    background-color: white;
+    
+} */
+
+/* .platformt>hr{
+    margin-left: -10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 108.5%;
+    height: 0.5px;
+    border: none;
+} */
+
+.platformt__in:hover{
+    background-color: aliceblue;
+    cursor: pointer;
+}
+
+.platformt__in{
+    font-size: 10px;
+}
+
+.head1{
+    font-size: 15px;
+}
+
+.para1{
+    font-size: 10px;
+}
+
+.platformt__inn{
+    display: flex;
+    align-items: center;
+}
